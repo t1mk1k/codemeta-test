@@ -1,0 +1,18 @@
+{
+    "@context": [
+      "https://doi.org/10.5063/schema/codemeta-2.0",
+      {
+        "schema": "http://schema.org/",
+        "researchDomain": "schema:DefinedTerm",
+        "researchSubdomain": {
+          "@id": "schema:DefinedTerm",
+          "@container": "@list"
+        },
+        "methodology": "schema:Text",
+        "tags": {
+            "@id": "http://schema.org/keywords",
+            "@container": "@set"
+        }
+      }
+    ]
+}
