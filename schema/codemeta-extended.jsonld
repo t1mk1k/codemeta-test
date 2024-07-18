@@ -3,7 +3,7 @@
       "https://doi.org/10.5063/schema/codemeta-2.0",
       {
         "schema": "http://schema.org/",
-        "codemetaforscience": "https://codemetaforscience.github.io/terms/",
+        "codemetaforscience": "https://codemeta.github.io/terms/",
         "researchDomain": {
             "@id": "codemetaforscience:researchDomain",
             "@type": "schema:DefinedTerm",
