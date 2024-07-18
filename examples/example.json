@@ -7,7 +7,7 @@
     "description": "This software is designed to analyze biological data.",
     "version": "1.0.0",
     "codeRepository": "https://github.com/example/research-software",
-    "license": "MIT",
+    "license": "https://spdx.org/licenses/MIT",
     "programmingLanguage": "Python",
     "author": {
       "@type": "Person",
