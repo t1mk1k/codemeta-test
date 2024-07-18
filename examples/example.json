@@ -12,7 +12,7 @@
     "author": {
       "@type": "Person",
       "name": "Jane Doe",
-      "affiliation": "University of Science"
+      "affiliation": "https://university-of-science.edu.example"
     },
     "researchDomain": {
       "@type": "DefinedTerm",
@@ -30,12 +30,7 @@
       }
     ],
     "methodology": "Uses machine learning algorithms to classify gene sequences.",
-    "dataAvailability": {
-      "@type": "CreativeWork",
-      "name": "Genomic Data",
-      "url": "https://doi.org/10.1234/example-dataset",
-      "license": "CC-BY-4.0"
-    },
+    "readme": "https://github.com/example/research-software/readme",
     "fundingSource": {
       "@type": "MonetaryGrant",
       "name": "National Science Foundation",
