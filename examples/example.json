@@ -1,0 +1,44 @@
+{
+    "@context": [
+       "https://raw.githubusercontent.com/t1mk1k/codemeta-test/main/schema/codemeta-extended.jsonld"
+    ],
+    "@type": "SoftwareSourceCode",
+    "name": "Example Scientific Software",
+    "description": "This software is designed to analyze biological data.",
+    "version": "1.0.0",
+    "codeRepository": "https://github.com/example/research-software",
+    "license": "MIT",
+    "programmingLanguage": "Python",
+    "author": {
+      "@type": "Person",
+      "name": "Jane Doe",
+      "affiliation": "University of Science"
+    },
+    "researchDomain": {
+      "@type": "DefinedTerm",
+      "name": "Life Sciences",
+      "url": "https://example.com/terms/life-sciences"
+    },
+    "researchSubdomain": [
+      {
+        "name": "Bioinformatics",
+        "url": "https://example.com/terms/bioinformatics"
+      },
+      {
+        "name": "Genomics",
+        "url": "https://example.com/terms/genomics"
+      }
+    ],
+    "methodology": "Uses machine learning algorithms to classify gene sequences.",
+    "dataAvailability": {
+      "@type": "CreativeWork",
+      "name": "Genomic Data",
+      "url": "https://doi.org/10.1234/example-dataset",
+      "license": "CC-BY-4.0"
+    },
+    "fundingSource": {
+      "@type": "MonetaryGrant",
+      "name": "National Science Foundation",
+      "identifier": "NSF-123456"
+    }
+  }
