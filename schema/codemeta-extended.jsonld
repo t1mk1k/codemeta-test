@@ -6,7 +6,7 @@
         "codemetaforscience": "https://codemetaforscience.github.io/terms/",
         "researchDomain": {
             "@id": "codemetaforscience:researchDomain",
-            "@type": "schema:DefinedTerm",
+            "@type": "schema:DefinedTerm"
         },
         "researchSubdomain": {
           "@id": "codemetaforscience:researchSubdomain",
@@ -15,7 +15,7 @@
         },
         "methodology": {
             "@id": "codemetaforscience:methodology",
-            "@type": "schema:Text",
+            "@type": "schema:Text"
         },
         "tags": {
             "@id": "http://schema.org/keywords",
