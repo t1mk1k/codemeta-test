@@ -15,7 +15,6 @@
       "affiliation": "https://university-of-science.edu.example"
     },
     "researchDomain": {
-      "@type": "DefinedTerm",
       "name": "Life Sciences",
       "url": "https://example.com/terms/life-sciences"
     },
@@ -31,9 +30,9 @@
     ],
     "methodology": "Uses machine learning algorithms to classify gene sequences.",
     "readme": "https://github.com/example/research-software/readme",
-    "fundingSource": {
-      "@type": "MonetaryGrant",
-      "name": "National Science Foundation",
-      "identifier": "NSF-123456"
-    }
+    "funder": {
+        "type": "Organization",
+        "name": "NSF"
+    },
+    "funding": "NSF-123456"
   }
